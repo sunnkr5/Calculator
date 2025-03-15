@@ -47,12 +47,14 @@ h1 {
                     flex-direction: column;
                     }
 #maindiv {
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid blue;
+  
+        border: 1px solid blue;
     width: 400px;
-    height: 600px;
+    height: 100%;  /* Ensure the body takes up the full height of the viewport */
+    margin: 0;     /* Remove default margin */
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center; 
 }
 
 .btn {
@@ -64,21 +66,29 @@ h1 {
     border-radius: 10%;
     }
 #display {
-    width: 300px;
+    width: 350px;
     height: 150px;
     border: 1px solid red;
     display: flex;
     align-content: center;
     justify-content: center;
-    flex-direction: row;
+    
     background-color: white;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .div-cen {
+    height: 100%;  /* Ensure the body takes up the full height of the viewport */
+    margin: 0;     /* Remove default margin */
     display: flex;
-    align-content: center;
-    justify-content: space-evenly;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center; 
+    flex-direction: column;
     
+}
+body {
+    text-align: center;
+    margin: 0 auto;
 }
