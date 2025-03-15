@@ -1,0 +1,72 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+#div1   {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid orange;
+    background-color: rgb(19, 24, 24);
+    width: 350px;
+    height: 600px;
+}
+#div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 600px;
+    margin: 0 auto;
+
+    }
+
+ #one-c {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        flex-direction: column;
+        }
+
+        #second-c {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            }
+            #third-c {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                }
+                #fourth-c {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    }
+#maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 75px;
+    height: 70px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+#display {
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+}
