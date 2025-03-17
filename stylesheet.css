@@ -73,13 +73,15 @@ h1 {
     height: 200px;
     border: 2px solid orange;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    align-content: right;
+    justify-content: right;
     background-color: white;
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 4%;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .div-cen {
